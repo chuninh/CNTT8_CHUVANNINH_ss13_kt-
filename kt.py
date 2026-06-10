@@ -1,5 +1,5 @@
 employee_list =[]
-
+count = 0
 while True :
     print("1.them nhan vien moi ")
     print("2.danh sach nhan vien ")
@@ -7,7 +7,7 @@ while True :
     print("4.thoat chuong trinh")
 
     choice = input("moi ban nhap lua chon cua minh(1-4) :")
-    count = len(employee_list)
+    
     if choice == "1":
         print(count)
         id = 101 + count 
@@ -34,6 +34,7 @@ while True :
             "lasary" : lasary
         })
         print("them nhan vien thanh cong ")
+        count += 1
         
         
 
